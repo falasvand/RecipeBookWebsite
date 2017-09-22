@@ -1,0 +1,6 @@
+<h3 *ngIf="!isAuthenticated()">
+  You <strong>must</strong> login in order to add/edit recipes!
+</h3>
+<h4 *ngIf="isAuthenticated()">
+  Select a recipe from the menu!
+</h4>
